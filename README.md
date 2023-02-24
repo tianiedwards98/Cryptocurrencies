@@ -15,7 +15,7 @@ In this analysis we learned and applied:
 - Clustering Algorithms (KMeans) - the process of grouping similar objects/data points into clusters.
 - Visualization (hvPlot, Plotly) - graphic libraries that allows us to create 2D and 3D graphs such as, scatter plots.
 
-##Results
+## Results
 The original dataset contained 1,252 entries, however only 1,144 cryptocurrencies were currently trading. The data was further munged to remove null values and only leave cryptocurrencies that had a total number of mined coins greater than 0. The final results identified 532 tradable cryptocurrencies.
 
 ![cryptotable](https://github.com/tianiedwards98/Cryptocurrencies/blob/main/Resources/Images/Screen%20Shot%202023-02-23%20at%207.37.57%20PM.png?raw=true)
@@ -28,7 +28,7 @@ The clusters are plotted in a 3D scatter plot for visualization.
 
 ![3D](https://github.com/tianiedwards98/Cryptocurrencies/blob/main/Resources/Images/Screen%20Shot%202023-02-23%20at%207.37.43%20PM.png?raw=true)
 
-##Resources
+## Resources
 - Dataset from CryptoCompare
 - Software: Python 3.7.9, Anaconda 4.9.2 and Jupyter Notebooks 6.1.4
 - Libraries: Scikit-learn, Plotly, hvPlot, Pandas
